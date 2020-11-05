@@ -8,6 +8,7 @@ public class TestToGitHubController {
     @GetMapping("/test1")
     public String test(){
         System.out.println("11111");
+System.out.println("222222");
         return "ok";
     }
 }
