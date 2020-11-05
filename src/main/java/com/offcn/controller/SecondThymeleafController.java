@@ -62,5 +62,12 @@ public class SecondThymeleafController {
 
         return "index5";
     }
+    @GetMapping("/six")
+    public String indexPage5(Model model){
+        model.addAttribute("flag","no");
+        model.addAttribute("menu","zs");
+        model.addAttribute("manager","admin");
 
+        return "index6";
+    }
 }
